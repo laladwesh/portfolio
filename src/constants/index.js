@@ -154,32 +154,45 @@ const experiences = [
       "Ensuring responsive and interactive design elements for an engaging user experience across all devices.",
     ],
   },
+  {
+    title: "Co-Ordinator",
+    company_name: "Coding Club IIT Guwahati",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "Dec 2024 - Present",
+    points: [
+      "Organizing and conducting coding workshops to educate and inspire students on various programming concepts and technologies.",
+      "Collaborating with team members and mentors to plan events and create engaging learning experiences.",
+      "Developing and maintaining resources for workshops, ensuring accessibility and practical applicability for participants.",
+      "Providing mentorship and support to participants, fostering a collaborative and innovative environment.",
+    ],
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Secured the 1st position in the Hacktoberfest at IIT Guwahati, outperforming all participants.",
+    name: "Hacktoberfest",
+    designation: "SWC",
+    company: "IITG",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGkuDTSquSz3iNxPdrMcZDtMN4eVnPH9Hj1g&s",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Completed a comprehensive C++ course on Udemy, mastering OOP and advanced concepts.",
+    name: "C++ Programming",
+    designation: "Certification",
+    company: "Udemy",
+    image: "https://img.utdstc.com/icon/ff0/a5e/ff0a5ec61bc652cce9761f4e68089610662e76fcfea8c84fa813e10d3a9ed3d7:200",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Certified under HackStack by SWC, IIT Guwahati, for completing React and Node.js modules.",
+    name: "HackStack",
+    designation: "SWC",
+    company: "IITG",
+    image: "https://play-lh.googleusercontent.com/w0scr6QhQ8YRcp5bnQ1HRuOUWA0ZE5TlN2Pt66TYjCDZZ5-kxUqPy_RnoJfg-jhFuBg=w600-h300-pc0xffffff-pd",
   },
 ];
 
@@ -190,11 +203,11 @@ const projects = [
       "A dynamic web-based platform connecting recruiters and applicants, enabling seamless job posting, application tracking, and communication. Recruiters can post vacancies, search for candidates, and manage hiring processes, while applicants can search for opportunities, submit applications, and track their progress—all in one efficient and user-friendly system.",
     tags: [
       {
-        name: "react",
+        name: "vite",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "shadcnui",
         color: "green-text-gradient",
       },
       {
@@ -219,16 +232,12 @@ const projects = [
       "A comprehensive task and project management platform where both users and admins can create, manage, and prioritize sprints. Users can organize tasks within sprints, set deadlines, and monitor progress, adjust priorities, and ensure efficient team collaboration. With customizable boards and advanced reporting, the platform empowers teams to streamline their project execution and achieve their goals efficiently.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "shadcnui",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
       {
         name: "neonDB",
