@@ -18,6 +18,17 @@ const Navbar = () => {
       } else {
         setScrolled(false);
       }
+
+      // Highlight active section
+      navLinks.forEach((nav) => {
+        const section = document.getElementById(nav.id);
+        if (section) {
+          const { top, bottom } = section.getBoundingClientRect();
+          if (top <= 100 && bottom >= 100) {
+            setActive(nav.title);
+          }
+        }
+      });
     };
 
     window.addEventListener("scroll", handleScroll);
