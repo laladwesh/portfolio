@@ -25,11 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import spirit from "./company/spirit.png";
+import kriti from "./company/kriti.png";
+import techboard from "./company/techboard.png";
+import ecell from "./company/ecell.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import icacc2025 from "./icacc2025.png";
 export {
   logo,
   backend,
@@ -53,10 +57,15 @@ export {
   typescript,
   threejs,
   meta,
+  ecell,
   shopify,
   starbucks,
   tesla,
+  spirit,
+  techboard,
   carrent,
+  icacc2025,
+  kriti,
   jobit,
   tripguide,
 };
