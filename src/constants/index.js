@@ -134,6 +134,20 @@ const experiences = [
     ],
   },
   {
+    title: "Student Coordinator, Technical Support",
+    company_name: "Center For Career Development, IIT Guwahati",
+    icon: "https://imgs.search.brave.com/4VxyZwdGw60cengB3G_36GhcO1q4JoojTL_Xs85NznI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ldmVu/dC5paXRnLmFjLmlu/L2ljYW5uMjAxOS9Q/cm9jZWVkaW5nc19M/YVRlWC8yMDE5L0lJ/VEdfbG9nby5wbmc",
+    iconBg: "#000",
+    date: "September 2025 - Present",
+   points: [
+  "Deployed and maintained multiple internal portals on IITG servers using SSH, ensuring high availability and reliable access during peak placement operations.",
+  "Built and managed a real-time Live Placement Sheet with role-based access for admins, POCs, and students to track shortlists, offers, and interview processes.",
+  "Handled server infrastructure and production deployments, streamlining updates and ensuring secure handling of placement data across portals.",
+  "Monitored system performance and resolved critical issues in high-traffic periods, supporting 1500+ students and 150+ company POCs throughout the placement season.",
+],
+
+  },
+  {
     title: "Web Operations Head",
     company_name: "Spirit IIT Guwahati",
     icon: spirit,
@@ -146,17 +160,17 @@ const experiences = [
       "Monitoring website analytics and performance metrics to optimize load times and enhance participant engagement.",
     ],
   },
-    {
+  {
     title: "Web-Operations Head",
     company_name: "ICACC 2025",
-    icon: spirit ,
+    icon: spirit,
     iconBg: "#fff",
     date: "September 2024 - May 2025",
-   points: [
-    "3rd International Conference on Agriculture Centric Computation (ICACC) 2025.",
-    "Single-handedly managed end-to-end development and deployment of the conference’s website, building it from scratch and hosting it on the IITG server throughout the tenure.",
-    "Conducted regular code reviews to enforce best practices and elevate code quality across the web team.",
-    "Optimized website performance and implemented security measures to ensure reliability and data integrity.",
+    points: [
+      "3rd International Conference on Agriculture Centric Computation (ICACC) 2025.",
+      "Single-handedly managed end-to-end development and deployment of the conference’s website, building it from scratch and hosting it on the IITG server throughout the tenure.",
+      "Conducted regular code reviews to enforce best practices and elevate code quality across the web team.",
+      "Optimized website performance and implemented security measures to ensure reliability and data integrity.",
     ],
   },
   {
@@ -185,19 +199,19 @@ const experiences = [
       "Ensuring responsive and interactive design elements for an engaging user experience across all devices.",
     ],
   },
-  // {
-  //   title: "Co-Ordinator",
-  //   company_name: "Coding Club IIT Guwahati",
-  //   icon: meta,
-  //   iconBg: "#383E56",
-  //   date: "Dec 2024 - May 2025",
-  //   points: [
-  //     "Organizing and conducting coding workshops to educate and inspire students on various programming concepts and technologies.",
-  //     "Collaborating with team members and mentors to plan events and create engaging learning experiences.",
-  //     "Developing and maintaining resources for workshops, ensuring accessibility and practical applicability for participants.",
-  //     "Providing mentorship and support to participants, fostering a collaborative and innovative environment.",
-  //   ],
-  // },
+  {
+    title: "Co-Ordinator",
+    company_name: "Coding Club IIT Guwahati",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "Dec 2024 - May 2025",
+    points: [
+      "Organizing and conducting coding workshops to educate and inspire students on various programming concepts and technologies.",
+      "Collaborating with team members and mentors to plan events and create engaging learning experiences.",
+      "Developing and maintaining resources for workshops, ensuring accessibility and practical applicability for participants.",
+      "Providing mentorship and support to participants, fostering a collaborative and innovative environment.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -210,7 +224,7 @@ const testimonials = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGkuDTSquSz3iNxPdrMcZDtMN4eVnPH9Hj1g&s",
   },
-    {
+  {
     testimonial:
       "Achieved third place in Inter-IIT Bootcamp Software-Dev PS, showcasing exceptional problem-solving skills.",
     name: "Inter-IIT Bootcamp",
@@ -218,7 +232,7 @@ const testimonials = [
     company: "IITG",
     image: techboard,
   },
-   {
+  {
     testimonial:
       "Secured first place in Product Development, highlighting outstanding problem-solving abilities.",
     name: "Kriti",
@@ -251,11 +265,10 @@ const testimonials = [
     company: "IITG",
     image: ecell,
   },
-
 ];
 
 const projects = [
-    {
+  {
     name: "ICACC 2025",
     description:
       "A dynamic web-based portal powering ICACC 2025, serving as the central hub for organizers, speakers, sponsors, and attendees. Organizers can manage calls for papers, registrations, session scheduling, and announcements, while speakers submit abstracts, update profiles, and upload presentation materials. Sponsors gain dedicated showcase pages, and attendees can explore the program, register for workshops, and network—all through a responsive, secure, and intuitive interface.",
